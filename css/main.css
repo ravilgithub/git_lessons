@@ -9,3 +9,7 @@ h1 {
 li {
 	list-style-type: none;
 }
+
+.comment {
+	font-style: italic;
+}
