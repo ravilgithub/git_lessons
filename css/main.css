@@ -18,3 +18,7 @@ li a {
 .comment {
 	font-style: italic;
 }
+
+.story {
+	font-weight: thin;
+}
