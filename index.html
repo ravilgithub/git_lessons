@@ -49,10 +49,10 @@
 		;( d => {
 			window.onload = () => {
 
-				let say = name => 'Hello, ' + name + '!';
+				let sayHello = name => 'Hello, ' + name + '!';
 
 				let html = ( tag, name ) => {
-					let msg = say( name ),
+					let msg = sayHello( name ),
 					    el = d.createElement( tag );
 
 					el.innerHTML = msg;
