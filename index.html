@@ -45,5 +45,24 @@
 
 	<blockquote>Some blockquote</blockquote>
 
+	<script>
+		;( d => {
+			window.onload = () => {
+
+				let say = name => 'Hello, ' + name + '!';
+
+				let html = ( tag, name ) => {
+					let msg = say( name ),
+					    el = d.createElement( tag );
+
+					el.innerHTML = msg;
+					d.body.append( el );
+				};
+
+				html( 'p', 'Ravil' );
+
+			};
+		} )( document );
+	</script>
 </body>
 </html>
