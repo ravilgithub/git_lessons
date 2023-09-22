@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Document</title>
 	<link rel="stylesheet" href="css/main.css">
 </head>
+
 <body>
 	<h1>Git + Github + GitPages</h1>
 	<p>Первые шаги.</p>
@@ -46,23 +48,24 @@
 	<blockquote>Some blockquote</blockquote>
 
 	<script>
-		;( d => {
+		; (d => {
 			window.onload = () => {
 
 				let sayHello = name => 'Hello, ' + name + '!';
 
-				let html = ( tag, name ) => {
-					let msg = sayHello( name ),
-					    el = d.createElement( tag );
+				let html = (tag, name) => {
+					let msg = sayHello(name),
+						el = d.createElement(tag);
 
 					el.innerHTML = msg;
-					d.body.append( el );
+					d.body.append(el);
 				};
 
-				html( 'p', 'Ravil' );
+				html('p', 'Ravil');
 
 			};
-		} )( document );
+		})(document);
 	</script>
 </body>
+
 </html>
