@@ -79,6 +79,13 @@ git rm <file>
 - Влить ветку в текущюю
 git merge [<origin>/]<branch-name>
 
+- Слияние удалённой/удалённых веток
+git fetch --all
+git checkout <branch_to>
+git pull [<origin> <branch_to>]
+git merge [<origin>] <branch_from>
+git push [<origin> <branch_to>]
+
 - Добавление ветки в удалённый репозиторий
 git push --set-upstream <origin> <branch-name>
 
