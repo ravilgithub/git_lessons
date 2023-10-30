@@ -52,6 +52,9 @@ git diff --staged
 - Показ строк с не нужными пробельными символами
 git diff --check
 
+- Посмотреть разницу состояний локальной и удалённой веток
+git diff origin/HEAD
+
 - Фиксация изменений
 git commit -m "Message"
 
