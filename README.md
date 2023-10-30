@@ -67,6 +67,9 @@ git restore --staged <file>
 - Откат изменённого файла
 git restore <file>
 
+- Перемещение/переименование файла
+git mv <file-from> <file-to>
+
 - Удаление файла
 git rm <file>
 
@@ -132,9 +135,6 @@ git reset --soft HEAD@{n}
 ------------------------------------------------
 
 Попрактиковать и описать
-
-- Перемещение/переименование файла
-git mv <file-from> <file-to>
 
 - Перебазирование глава 3.6
 git rebase [--onto] <branch-to> <branch-from>
