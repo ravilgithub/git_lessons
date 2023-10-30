@@ -67,6 +67,9 @@ git restore --staged <file>
 - Откат изменённого файла
 git restore <file>
 
+- Удаление файла
+git rm <file>
+
 - Влить ветку в текущюю
 git merge [<origin>/]<branch-name>
 
@@ -132,9 +135,6 @@ git reset --soft HEAD@{n}
 
 - Перемещение/переименование файла
 git mv <file-from> <file-to>
-
-- Удаление файла
-git rm <file>
 
 - Перебазирование глава 3.6
 git rebase [--onto] <branch-to> <branch-from>
