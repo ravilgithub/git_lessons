@@ -97,6 +97,10 @@ git rm <file>
 - Влить ветку в текущюю
 git merge [<origin>/]<branch-name>
 
+- Принудительное трёхстороннее слияние даже если возможно слияние методом fast-forward.
+  Находясь на ветке в которую нужно влить изменения с сохранение истории ( параметр --no-ff ).
+git merge <branch-name> --no-ff
+
 - Слияние удалённой/удалённых веток
 git fetch --all
 git checkout <branch_to>
